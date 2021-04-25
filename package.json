@@ -1,0 +1,18 @@
+{
+  "name": "recursivecofactorexpansion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "det.js",
+  "type": "module",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "Christian Fenn",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4"
+  },
+  "dependencies": {
+    "mocha": "^8.3.2"
+  }
+}
