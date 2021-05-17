@@ -1,7 +1,6 @@
-
 /**
  * @param matrix: an n*n matrix
- * @returns the determinant of the given n*n matrix
+ * @returns the determinant of the given n*n matrix 
  */
 const determinant = matrix => {
     let computedDeterminant = 0
@@ -34,7 +33,7 @@ const determinant = matrix => {
  */
 const getCofactor = (matrix, rowToExclude, columnToExclude) => {
     let i = 0, j = 0
-    const n = matrix[rowToExclude].length // The n*n matrix dimension
+    const n = matrix[rowToExclude].length
     const cofactor = Array.from(Array(n - 1), () => new Array(n - 1)) // size of each cofactor should be n-1*n-1
     for (let row = 0; row < n; row++) {
         for (let col = 0; col < n; col++) {

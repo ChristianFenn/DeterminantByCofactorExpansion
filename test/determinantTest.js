@@ -77,7 +77,7 @@ describe('Determinant Tests', () => {
     });
 })
 
-describe('Minor Tests', () => {
+describe('Matrix Minor Tests', () => {
     it('should return correct cofactor matrices', () => {
         const matrix = [
             [Math.cos(toRadians(30)), -Math.sin(toRadians(30)), 0],
